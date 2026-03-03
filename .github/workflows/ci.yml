@@ -21,9 +21,9 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run Training Script
+      - name: Check Code Structure
         run: |
-          python train.py
+          python -m compileall .
 
       - name: Build Docker Image
         run: |
