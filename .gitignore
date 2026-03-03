@@ -1,0 +1,15 @@
+# Data
+data/
+*.csv
+*.pkl
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Virtual env
+mlops-env/
+
+# OS files
+.DS_Store
+__pycache__/
